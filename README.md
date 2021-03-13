@@ -42,9 +42,9 @@ _Subir de git a github (del repositorio local a la nube._
 
 _nota: la primera vez pide usuario y contraseña de GitHub, no confundir con el de Git_
 
-### SUGERENCIA: cuando estes haciendo un proyecto y agregas algo, agregalo en commit luego cuando ya sepas que toda va bien pushealo, el push hazlo si vas a dejar hasta ahi el proyecto en el dia, solo para que lo tengas en la nube y no se te pierda
+#### SUGERENCIA: cuando estes haciendo un proyecto y agregas algo, agregalo en commit luego cuando ya sepas que toda va bien pushealo, el push hazlo si vas a dejar hasta ahi el proyecto en el dia, solo para que lo tengas en la nube y no se te pierda
 
-### RECUERDA: cuando tengas varios commits se especifico porque ahi podras encontrar el codigo tal y como lo guardaste en el y puedes acceder si encuentras un boton con los simbolos **< >** digamos que es un versionamiento
+#### RECUERDA: cuando tengas varios commits se especifico porque ahi podras encontrar el codigo tal y como lo guardaste en el y puedes acceder si encuentras un boton con los simbolos **< >** digamos que es un versionamiento
 
 
 
