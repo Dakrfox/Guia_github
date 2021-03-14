@@ -38,7 +38,7 @@ _Subir de git a github (del repositorio local a la nube._
 * `git add README.md`: documento para previsualizar la decripcion del repositorio
 * `git commit -m "first commit"`: ya hablamos de esto
 * `git branch -M main`: es para crear la rama de nombre main y decirle que va a ser la propia, la master pero teniendo en cuenta la semantica 
-*` git remote add origin https://github.com/"tu usuario aqui, sin las comillas"/"nombre".git`: agregar un repositorio local al repositorio de GitHub, teniendo en cuenta que ya debe de estar creado
+* `git remote add origin https://github.com/"tu usuario aqui, sin las comillas"/"nombre".git`: agregar un repositorio local al repositorio de GitHub, teniendo en cuenta que ya debe de estar creado
 * `git push -u origin main`: enviarlo para que se publique y que lo puedas visualizar en el repositorio que encuentras en la web.
 
 _nota: la primera vez pide usuario y contraseña de GitHub, no confundir con el de Git_
@@ -78,7 +78,11 @@ _las ramas es la manera de estar trabajando en el mismo proyecto sin dañar el p
 #### RECUERDA: hay que usar `add`,` commit` y` push` en la rama 
 
 ### Merge
-
+_para unir dos ramas, necesitamos situarnos con ` checkout` en la rama destino por ejemplo si se hara un merge desde rama1 a master/main nos situamo en la rama master/main y desde ahi_
+```
+$git merge "nombre de la rama sin comillas"
+```
+puede haber conflicto si se toca la misma linea o se modifica ambos el mismo lugar
 _estoy abierto a correciones y comentarios_
 
 
