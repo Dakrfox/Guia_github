@@ -33,10 +33,11 @@ con el comando :wq para guarda y salir_
 # GitHub
 _Subir de git a github (del repositorio local a la nube._
 
+
 * git init: inicializas el git en tu repositorio
 * git add README.md: documento para previsualizar la decripcion del repositorio
 * git commit -m "first commit": ya hablamos de esto
-* git branch -M main: es para crear la rama de nombre main y decirle que va a ser la propia, la master pero sin ser racista
+* git branch -M main: es para crear la rama de nombre main y decirle que va a ser la propia, la master pero teniendo en cuenta la semantica 
 * git remote add origin https://github.com/"tu usuario aqui, sin las comillas"/"nombre".git: agregar un repositorio local al repositorio de GitHub, teniendo en cuenta que ya debe de estar creado
 * git push -u origin main: enviarlo para que se publique y que lo puedas visualizar en el repositorio que encuentras en la web.
 
@@ -45,6 +46,14 @@ _nota: la primera vez pide usuario y contraseña de GitHub, no confundir con el 
 #### SUGERENCIA: cuando estes haciendo un proyecto y agregas algo, agregalo en commit luego cuando ya sepas que toda va bien pushealo, el push hazlo si vas a dejar hasta ahi el proyecto en el dia, solo para que lo tengas en la nube y no se te pierda
 
 #### RECUERDA: cuando tengas varios commits se especifico porque ahi podras encontrar el codigo tal y como lo guardaste en el y puedes acceder si encuentras un boton con los simbolos **< >** digamos que es un versionamiento
+
+## Para enviar un proyecto al repositorio
+
+* $git remote add origin https://github.com/"usuario sin comillas"/"nombre del archivo sin comillas".git esto va a dirigir los archivos que tengas a la ruta del repositorio 
+* $git branch -M main Aquí por el tema de #BLM te sugieren cambiar la semantica de master a main, (pasa igual con las palabras clave slave, blacklist, whitelist) -M lo vuelve princpal 
+* $git push -u origin main
+
+_estoy abierto a correciones y comentarios_
 
 
 
