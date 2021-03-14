@@ -1,7 +1,7 @@
 # Guía github. 🚀
 _Esta guia esta creada como referencia para los comandos github que yo voy a utilizar mas frecuentemente
 esto no quiere decir que a alguien no le sirva, simplemente los escribire Segun vea conveniente._
-## usuario y contraseña en git
+## usuario y correo en git
 ```
 $ git config --global user.name "tu nombre aqui"
 $ git config --global user.email tu correo aquí
@@ -52,6 +52,11 @@ _nota: la primera vez pide usuario y contraseña de GitHub, no confundir con el 
 * $git remote add origin https://github.com/"usuario sin comillas"/"nombre del archivo sin comillas".git esto va a dirigir los archivos que tengas a la ruta del repositorio 
 * $git branch -M main Aquí por el tema de #BLM te sugieren cambiar la semantica de master a main, (pasa igual con las palabras clave slave, blacklist, whitelist) -M lo vuelve princpal 
 * $git push -u origin main
+```
+origin
+```
+origin es una abreviacion  para el repositorio remoto, es una forma de decirle a github de donde viene el proyecto y que asi sea mas facil obtenerlo ( esto se usa en vez de una url del link local )
+
 
 _estoy abierto a correciones y comentarios_
 
